@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CLUBE DOS CAMINHÕES ARQUEADOS DO BRASIL</title>
+  <title>CLUBE DOS TUNADOS</title>
 
   <style>
     * {
@@ -15,11 +15,11 @@
     body {
       font-family: Arial, Helvetica, sans-serif;
       background: #0f0f0f;
-      color: white;
+      color: rgba(255, 255, 255, 0);
     }
 
     header {
-      background: linear-gradient(90deg, #ff0000, #ff7300);
+      background: linear-gradient(90deg, #ff0303d8, #e40e0efa);
       padding: 20px;
       text-align: center;
     }
@@ -27,7 +27,7 @@
     header h1 {
       margin: 0;
       font-size: 2.5rem;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
     }
 
     nav {
@@ -36,7 +36,7 @@
       justify-content: center;
       gap: 30px;
       padding: 15px;
-      border-bottom: 2px solid #ff7300;
+      border-bottom: 2px solid #f6f6f7e2;
       flex-wrap: wrap;
     }
 
@@ -90,7 +90,7 @@
    
     .card:hover {
       transform: translateY(-5px);
-      border-color: #ff7300;
+      border-color: #1223e0;
       box-shadow: 0 5px 15px rgba(255, 115, 0, 0.3);
     }
 
@@ -116,7 +116,7 @@
       text-align: center;
       padding: 20px;
       margin-top: 60px;
-      border-top: 2px solid #ff7300;
+      border-top: 2px solid #1218d2;
     }
    
     @media (max-width: 600px) {
