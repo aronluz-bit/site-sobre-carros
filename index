@@ -90,7 +90,7 @@
    
     .card:hover {
       transform: translateY(-5px);
-      border-color: #1223e0;
+      border-color: #ebebee;
       box-shadow: 0 5px 15px rgba(255, 115, 0, 0.3);
     }
 
