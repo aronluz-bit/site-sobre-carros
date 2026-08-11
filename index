@@ -15,7 +15,7 @@
     body {
       font-family: Arial, Helvetica, sans-serif;
       background: #f5f1f1fd;
-      color: rgba(235, 230, 230, 0.952);
+      color: rgba(0, 0, 0, 0);
     }
 
     header {
