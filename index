@@ -49,7 +49,7 @@
     }
 
     nav a:hover {
-      color: #ff7300;
+      color: #00000000;
       transform: scale(1.1);
     }
 
@@ -63,7 +63,7 @@
     main h2 {
       font-size: 2rem;
       margin-bottom: 15px;
-      color: #ff7300;
+      color: #000000ad;
     }
 
     main p {
@@ -158,10 +158,10 @@
         </div>
       </div>
       <div class="card">
-        <img src="Encontro de caminhões arqueados">
+               <img src=https://odg.com.br/wp-content/uploads/2024/12/volksfest-curitiba-bosque-sao-cristovao-2-1024x631.jpg alt="Encontro de caminhões arqueados">
         <div class="card-content">
           <h3>Eventos</h3>
-          <p>Cobertura dos maiores encontros</p>
+          <p>Cobertura dos maiores encontros de carros</p>
         </div>
       </div>
     </div>
