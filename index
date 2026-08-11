@@ -14,8 +14,8 @@
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: #0f0f0f;
-      color: rgba(255, 255, 255, 0);
+      background: #f5f1f1fd;
+      color: rgba(235, 230, 230, 0.952);
     }
 
     header {
@@ -139,26 +139,26 @@
   </nav>
 
   <main>
-    <h2>Bem-vindo ao mundo dos BRUTOS</h2>
-    <p>Aqui você encontra as melhores fotos e vídeos de caminhões arqueados do Brasil, com o engenheiro Paes.</p>
+    <h2>Bem-vindo ao mundo dos carros</h2>
+    <p>Aqui você encontra as melhores fotos e vídeos de carros Super carros e Antigos.</p>
    
     <div class="galeria">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&auto=format&fit=crop&quot; alt="Scania V8 arqueada na cor vermelha">
+        <img src="https://www.autoo.com.br/fotos/2023/6/1280_960/regera_19062023_74899_1280_960.jpg">
         <div class="card-content">
-          <h3>Scania Arqueada</h3>
-          <p>Os brutos mais insanos da estrada</p>
+          <h3>Super Carros</h3>
+          <p>velozes e bonitos</p>
         </div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=600&auto=format&fit=crop&quot; alt="Volvo FH branco arqueado">
+        <img src="https://assegurou.com.br/blog/wp-content/uploads/2024/06/image-3.png">
         <div class="card-content">
-          <h3>Volvo FH Arqueado</h3>
-          <p>Potência e estilo no grau</p>
+          <h3>Carros antigos</h3>
+          <p>Raros e Classicos</p>
         </div>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1557223562-6c77ef16210f?w=600&auto=format&fit=crop&quot; alt="Encontro de caminhões arqueados">
+        <img src="Encontro de caminhões arqueados">
         <div class="card-content">
           <h3>Eventos</h3>
           <p>Cobertura dos maiores encontros</p>
