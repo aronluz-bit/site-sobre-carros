@@ -163,7 +163,7 @@
     }
    
     .card h3 {
-      color: #ff7300;
+      color: #fcf5f5fb;
       margin-bottom: 10px;
       font-size: 1.4rem;
     }
