@@ -55,7 +55,181 @@
 
     main {
       padding: 40px 20px;
+      text-align: center;!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLUBE DOS TUNADOS</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f1f1fd;
+      color: rgba(0, 0, 0, 0);
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff0303d8, #e40e0efa);
+      padding: 20px;
       text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
+    }
+
+    nav {
+      background: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      border-bottom: 2px solid #f6f6f7e2;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00000000;
+      transform: scale(1.1);
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #000000ad;
+    }
+
+    main p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 8px;
+      padding: 0;
+      border: 1px solid #333;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+   
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #ebebee;
+      box-shadow: 0 5px 15px rgba(255, 115, 0, 0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+   
+    .card-content {
+      padding: 20px;
+    }
+   
+    .card h3 {
+      color: #ff7300;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      border-top: 2px solid #1218d2;
+    }
+   
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      nav { gap: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CLUBE DOS TUNADOS</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#fotos">Fotos</a>
+    <a href="#videos">Vídeos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <h2>Bem-vindo ao mundo dos carros</h2>
+    <p>Aqui você encontra as melhores fotos e vídeos de carros Super carros e Antigos.</p>
+   
+    <div class="galeria">
+      <div class="card">
+        <img src="https://www.autoo.com.br/fotos/2023/6/1280_960/regera_19062023_74899_1280_960.jpg">
+        <div class="card-content">
+          <h3>Super Carros</h3>
+          <p>velozes e bonitos</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHJjS8_FgpLpSr-2SeH9VCbUHnO0dxaDRAqDuY9dgRk9Om9b1ABopFr8&s=10
+        <div class="card-content">
+          <h3>Carros antigos</h3>
+          <p>Raros e Classicos</p>
+        </div>
+      </div>
+      <div class="card">
+               <img src=https://odg.com.br/wp-content/uploads/2024/12/volksfest-curitiba-bosque-sao-cristovao-2-1024x631.jpg alt="Encontro de caminhões arqueados">
+        <div class="card-content">
+          <h3>Eventos</h3>
+          <p>Cobertura dos maiores encontros de carros</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; </p>
+  </footer>
+
+</body>
+</html>
       max-width: 1200px;
       margin: 0 auto;
     }
